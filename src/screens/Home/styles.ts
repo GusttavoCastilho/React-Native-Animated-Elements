@@ -42,7 +42,7 @@ export const styles = StyleSheet.create({
     fontFamily: theme.fonts.extraBold,
   },
   fruitsList: {
-    paddingVertical: 40,
+    paddingVertical: 20,
     gap: 10,
   },
 });

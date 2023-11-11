@@ -4,6 +4,7 @@ import Icon from 'react-native-vector-icons/AntDesign';
 import {SafeAreaView} from 'react-native-safe-area-context';
 
 import {CardFruit} from '../../components/CardFruit';
+import {BottomTab} from '../../components/BottomTab';
 
 import {styles} from './styles';
 import {theme} from '../../theme/theme';
@@ -32,6 +33,7 @@ export const Home = () => {
         keyExtractor={item => item.id}
         numColumns={2}
         contentContainerStyle={styles.fruitsList}
+        showsVerticalScrollIndicator={false}
         renderItem={({item}) => (
           <CardFruit
             title={item.title}
@@ -40,6 +42,8 @@ export const Home = () => {
           />
         )}
       />
+
+      <BottomTab />
     </View>
   );
 };
