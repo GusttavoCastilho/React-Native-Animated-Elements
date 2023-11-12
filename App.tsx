@@ -1,7 +1,8 @@
 import React from 'react';
 import {SafeAreaProvider} from 'react-native-safe-area-context';
 import {StatusBar} from 'react-native';
-import {Home} from './src/screens/Home';
+
+import {Routes} from './src/routes';
 
 const App = () => {
   return (
@@ -11,7 +12,7 @@ const App = () => {
         barStyle="light-content"
         backgroundColor="transparent"
       />
-      <Home />
+      <Routes />
     </SafeAreaProvider>
   );
 };
