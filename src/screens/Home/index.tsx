@@ -10,8 +10,13 @@ import {styles} from './styles';
 import {theme} from '../../theme/theme';
 
 import {fruitsData} from './dummy';
+import {ScreenProps} from '../../routes';
+import {Product} from '../../models/Product';
 
-export const Home = () => {
+export const Home = ({navigation}: ScreenProps<'Home'>) => {
+  const handleNavigateToProductDetails = (product: Product, index: number) => {
+    navigation.navigate('ProductDetails', {product, index});
+  };
   return (
     <View style={styles.wrapper}>
       <View style={styles.wrapperHeader}>
@@ -34,11 +39,13 @@ export const Home = () => {
         numColumns={2}
         contentContainerStyle={styles.fruitsList}
         showsVerticalScrollIndicator={false}
-        renderItem={({item}) => (
+        renderItem={({item, index}) => (
           <CardFruit
             title={item.title}
             category={item.category}
             image={item.image}
+            tagName={`sharedTag${index}`}
+            onPress={() => handleNavigateToProductDetails(item, index)}
           />
         )}
       />
