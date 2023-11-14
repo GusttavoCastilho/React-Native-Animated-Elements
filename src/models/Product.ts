@@ -5,4 +5,6 @@ export type Product = {
   title: string;
   category: string;
   image: ImageSourcePropType;
+  price: number;
+  details: string;
 };
