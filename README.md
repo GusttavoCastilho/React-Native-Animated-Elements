@@ -1,79 +1,70 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+<div align="center">
+  <h1>📱 React Naitve Animated Element Transition 📱</h1>
+  <p>
+    <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/GusttavoCastilho/React-Native-Animated-Elements?color=%232196F3">
+     <a href="https://www.linkedin.com/in/gustavo-castilho-914a621b4/" target="_blank" rel="noopener noreferrer">
+      <img alt="Made by" src="https://img.shields.io/badge/made%20by-Gustavo%20Castilho-%232196F3">
+    </a>
+    </p>
+</div>
 
-# Getting Started
+<h2>Prints 📸</h2>
+<div align="center" style="display: flex; flex-direction: row;gap:20px;">
+  <img src="./.github/home.png" width="200" />
+  <img src="./.github/details.png" width="200" />
+</div>
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+<h2>Technologies 🚀</h2>
+<li><a href="https://reactnative.dev/">React Native</a></li>
+<li><a href="https://www.typescriptlang.org/">Typescript</a></li>
+<li><a href="https://docs.swmansion.com/react-native-reanimated">React Native Reanimated</a></li>
 
-## Step 1: Start the Metro Server
-
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
-
-To start Metro, run the following command from the _root_ of your React Native project:
-
-```bash
-# using npm
-npm start
-
-# OR using Yarn
-yarn start
-```
-
-## Step 2: Start your Application
-
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
-
-### For Android
+<h2>Installing and running the project 🎲</h2>
 
 ```bash
-# using npm
-npm run android
+# Clone this repository
+$ git clone https://github.com/GusttavoCastilho/React-Native-Animated-Elements
 
-# OR using Yarn
-yarn android
+# Access the project folder in your terminal
+$ cd React-Native-Animated-Elements
+
+# Install the dependencies
+$ yarn install
+
+# Start server
+$ yarn server
+
+# Start Metro Bundle
+$ yarn start
+
+# Finally, run:
+$ yarn android # if your device is android
+$ yarn ios # if your device is ios
 ```
 
-### For iOS
+<h2>How to contribute? 😍</h2>
+
+**Fork this repository**
 
 ```bash
-# using npm
-npm run ios
+# Clone your fork
+$ git clone your-fork-url && cd React-Native-Animated-Elements
 
-# OR using Yarn
-yarn ios
+# Create a branch with your feature or bug fix
+$ git checkout -b my-branch
+
+# Commit your changes
+$ git commit -m 'my changes'
+
+# Push your branch
+$ git push origin my-branch
 ```
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+Delete your branch, if you want, when your pull request merge.
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+<h2>📝 License</h2>
 
-## Step 3: Modifying your App
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+<hr>
+<p align=center>Made with 💜 by <a href="https://www.linkedin.com/in/gustavo-castilho-914a621b4/">Gustavo Castilho</a><p>
