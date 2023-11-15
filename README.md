@@ -9,7 +9,7 @@
 </div>
 
 <h2>Demo 🎥</h2>
-https://github.com/GusttavoCastilho/React-Native-Animated-Elements/assets/67564443/57503cbe-7971-424a-b4f7-db8125e3634b.mp4?width=200&height=200
+<video src="https://github.com/GusttavoCastilho/React-Native-Animated-Elements/assets/67564443/57503cbe-7971-424a-b4f7-db8125e3634b"></video>
 
 <h2>Prints 📸</h2>
 <div align="center" style="display: flex; flex-direction: row;gap:20px;">
