@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>📱 React Naitve Animated Element Transition 📱</h1>
+  <h1>📱 React Native Animated Element Transition 📱</h1>
   <p>
     <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/GusttavoCastilho/React-Native-Animated-Elements?color=%232196F3">
      <a href="https://www.linkedin.com/in/gustavo-castilho-914a621b4/" target="_blank" rel="noopener noreferrer">
